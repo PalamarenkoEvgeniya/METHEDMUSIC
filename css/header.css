@@ -21,4 +21,10 @@
 
 .header__favorite-btn {
   color: #ffffff;
+  line-height: 0;
+  transition: color .3s ease-in-out;
+}
+
+.header__favorite-btn:hover {
+  color: tomato;
 }
