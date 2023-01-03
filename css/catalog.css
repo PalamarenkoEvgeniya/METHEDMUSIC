@@ -12,10 +12,30 @@
   color: #ffffff;
   grid-column: 1/ -1;
   display: flex;
+  justify-self: end;
   align-items: center;
   gap: 8px;
   margin-left: auto;
   font-weight: 600;
+  padding: 16px 0;
 }
 
+@media (max-width: 1024px) {
+  .catalog__container {
+    padding: 0 14px;
+  }
+}
 
+@media (max-width: 560px) {
+  .catalog__container {
+    padding: 0 11px;
+    grid-template-columns: repeat(auto-fill, 148px);
+    gap: 2px;
+  }
+
+  .catalog__btn-add {
+    padding: 14px 0;
+    font-size: 14px;
+    gap: 4px;
+  }
+}
