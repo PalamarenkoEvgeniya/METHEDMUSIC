@@ -28,6 +28,8 @@
     <meta name="theme-color" content="#cd8820" />
     <link rel="stylesheet" href="css/index.css" />
 
+    <script src="js/index.js" defer></script>
+
     <title>Methed.Music - музыка для вас</title>
   </head>
   <body>
@@ -80,7 +82,7 @@
       <h2 class="visually-hidden">Список треков</h2>
 
       <div class="catalog__container">
-        <button class="catalog__item track">
+        <button class="catalog__item track " data-track ="audio/The Weeknd - Save Your Tears.mp3">
           <div class="track__img-wrap">
             <img
               class="track__poster"
@@ -95,12 +97,13 @@
             <p class="track-info__artist">The weekend</p>
           </div>
         </button>
-        <button class="catalog__item track track_active">
+
+        <button class="catalog__item track track_active " data-track ="audio/Imagine Dragons - Follow You.mp3">
           <div class="track__img-wrap">
             <img
               class="track__poster"
               src="images/poster2.jpg"
-              alt="The weekend - Save your tears"
+              alt="Imagine Dragons - Follow You"
               width="180"
               height="180"
             />
@@ -110,12 +113,13 @@
             <p class="track-info__artist">Imagine Dragons</p>
           </div>
         </button>
-        <button class="catalog__item track">
+
+        <button class="catalog__item track" data-track ="audio/Tove Lo - How Long.mp3">
           <div class="track__img-wrap">
             <img
               class="track__poster"
               src="images/poster3.jpg"
-              alt="The weekend - Save your tears"
+              alt="Dirt Femme - How Long"
               width="180"
               height="180"
             />
@@ -125,12 +129,13 @@
             <p class="track-info__artist">How Long</p>
           </div>
         </button>
-        <button class="catalog__item track">
+
+        <button class="catalog__item track" data-track ="audio/Tom Odell - Another Love.mp3">
           <div class="track__img-wrap">
             <img
               class="track__poster"
               src="images/poster4.jpg"
-              alt="The weekend - Save your tears"
+              alt="Tom Odell - Another Love"
               width="180"
               height="180"
             />
@@ -140,12 +145,13 @@
             <p class="track-info__artist">Tom Odell</p>
           </div>
         </button>
-        <button class="catalog__item track">
+
+        <button class="catalog__item track" data-track ="audio/Lana Del Rey - Born To Die.mp3">
           <div class="track__img-wrap">
             <img
               class="track__poster"
               src="images/poster5.jpg"
-              alt="The weekend - Save your tears"
+              alt="Lana Del Rey - Born to Die"
               width="180"
               height="180"
             />
@@ -155,12 +161,13 @@
             <p class="track-info__artist">Lana Del Rey</p>
           </div>
         </button>
-        <button class="catalog__item track">
+
+        <button class="catalog__item track" data-track ="audio/Adele - Hello.mp3">
           <div class="track__img-wrap">
             <img
               class="track__poster"
               src="images/poster6.jpg"
-              alt="The weekend - Save your tears"
+              alt="Adele - Hello"
               width="180"
               height="180"
             />
@@ -170,12 +177,13 @@
             <p class="track-info__artist">Adele</p>
           </div>
         </button>
-        <button class="catalog__item track">
+
+        <button class="catalog__item track" data-track ="audio/Tom Odell - Can't Pretend.mp3">
           <div class="track__img-wrap">
             <img
               class="track__poster"
               src="images/poster7.jpg"
-              alt="The weekend - Save your tears"
+              alt="Tom Odell - Can't Pretend"
               width="180"
               height="180"
             />
@@ -185,12 +193,13 @@
             <p class="track-info__artist">Tom Odell</p>
           </div>
         </button>
-        <button class="catalog__item track">
+
+        <button class="catalog__item track" data-track ="audio/Lana Del Rey - Young And Beautiful.mp3">
           <div class="track__img-wrap">
             <img
               class="track__poster"
               src="images/poster8.jpg"
-              alt="The weekend - Save your tears"
+              alt="Lana Del Rey - Young and Beautiful"
               width="180"
               height="180"
             />
@@ -200,12 +209,13 @@
             <p class="track-info__artist">Lana Del Rey</p>
           </div>
         </button>
-        <button class="catalog__item track">
+
+        <button class="catalog__item track" data-track ="audio/Adele - Someone Like You.mp3">
           <div class="track__img-wrap">
             <img
               class="track__poster"
               src="images/poster9.jpg"
-              alt="The weekend - Save your tears"
+              alt="Adele - Someone Like You"
               width="180"
               height="180"
             />
@@ -215,12 +225,13 @@
             <p class="track-info__artist">Adele</p>
           </div>
         </button>
-        <button class="catalog__item track">
+
+        <button class="catalog__item track" data-track ="audio/Imagine Dragons - Natural.mp3">
           <div class="track__img-wrap">
             <img
               class="track__poster"
               src="images/poster10.jpg"
-              alt="The weekend - Save your tears"
+              alt="Imagine Dragons - Natural"
               width="180"
               height="180"
             />
@@ -230,27 +241,29 @@
             <p class="track-info__artist">Imagine Dragons</p>
           </div>
         </button>
-        <button class="catalog__item track">
+
+        <button class="catalog__item track" data-track ="audio/Drake - Laugh Now Cry Later.mp3">
           <div class="track__img-wrap">
             <img
               class="track__poster"
               src="images/poster11.jpg"
-              alt="The weekend - Save your tears"
+              alt="Drake - laugh now cry later"
               width="180"
               height="180"
             />
           </div>
           <div class="track__info track-info">
-            <p class="track-info__title">laugh now cry later</p>
+            <p class="track-info__title">Laugh now cry later</p>
             <p class="track-info__artist">Drake</p>
           </div>
         </button>
-        <button class="catalog__item track">
+
+        <button class="catalog__item track" data-track ="audio/Madonna - Frozen.mp3">
           <div class="track__img-wrap">
             <img
               class="track__poster"
               src="images/poster12.jpg"
-              alt="The weekend - Save your tears"
+              alt="Madonna - Frozen"
               width="180"
               height="180"
             />
@@ -278,7 +291,7 @@
       </div>
     </section>
 
-    <section class="player player_active">
+    <section class="player">
       <h2 class="visually-hidden">Плеер</h2>
 
       <div class="player__container">
@@ -288,11 +301,11 @@
         </div>
 
         <div class="player__controller">
-          <button class="player__icon player__icon_stop"></button>
-          <button class="player__icon player__icon_prev"></button>
-          <button class="player__icon player__icon_pause"></button>
-          <button class="player__icon player__icon_next"></button>
-          <button class="player__icon player__icon_like"></button>
+          <button class="player__icon player__icon_stop player__controller_stop"></button>
+          <button class="player__icon player__icon_prev player__controller_prev"></button>
+          <button class="player__icon player__icon_pause player__controller_pause"></button>
+          <button class="player__icon player__icon_next player__controller_next"></button>
+          <button class="player__icon player__icon_like player__controller_like"></button>
         </div>
         <div class="player__progress-wrap">
           <div class="player__progress">
@@ -304,14 +317,14 @@
               value="0"
             />
           </div>
-  
+
           <p class="player__time">
             <span class="player__time-passed">0:24</span>
             <span>/</span>
             <span class="player__time-total">4:31</span>
           </p>
         </div>
-  
+
         <div class="player__volume-wrap">
           <div class="player__volume">
             <input
@@ -325,8 +338,6 @@
           <button class="player__icon player__icon_mute"></button>
         </div>
       </div>
-
-      
     </section>
   </body>
 </html>
