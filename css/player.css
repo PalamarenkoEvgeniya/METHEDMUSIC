@@ -62,6 +62,10 @@
   background-image: url('../images/like-o.svg');
 }
 
+.player__icon_like_active {
+  filter: drop-shadow(0 0 3px tomato);
+}
+
 .player__icon_stop,
 .player__icon_prev,
 .player__icon_pause,
@@ -286,7 +290,7 @@
   .player__info {
     justify-self: center;
   }
-  
+
   .player__time {
     font-size: 12px;
     gap: 2px;
