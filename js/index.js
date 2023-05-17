@@ -21,7 +21,8 @@ const nextBtn = document.querySelector('.player__controller_next');
 const likeBtn = document.querySelector('.player__controller_like');
 const muteBtn = document.querySelector('.player__controller_mute');
 const playerProgressInput = document.querySelector('.player__progress-input');
-
+const trackTitle = document.querySelector('.track-info__title');
+const trackArtist = document.querySelector('.track-info__artist');
 const playerTimePassed = document.querySelector('.player__time-passed');
 const playerTimeTotal = document.querySelector('.player__time-total');
 const playerVolumeInput = document.querySelector('.player__volume-input');
@@ -83,6 +84,8 @@ const playMusic = (event) => {
     return id === item.id;
   });
   audio.src = `${API_URL}${track.mp3}`;
+  trackTitle.textContent = track.track;
+  trackArtist.textContent = track.artist;
 
   audio.play();
 
@@ -263,7 +266,7 @@ const init = async () => {
 
     playlist = await fetch(`${API_URL}api/music?search=${search.search.value}`).then(data => data.json());
 
-   
+
 
     renderCatalog(playlist);
     checkCount();
