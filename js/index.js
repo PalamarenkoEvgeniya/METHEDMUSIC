@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3024/';
+const API_URL = 'https://forested-spangled-wavelength.glitch.me/';
 
 let dataMusic = [];
 
